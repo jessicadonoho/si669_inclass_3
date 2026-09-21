@@ -36,7 +36,7 @@
   "bugs": {
     "url": "https://github.com/jessicadonoho/si669_inclass_3/issues"
   },
-  "homepage": "https://github.com/jessicadonoho/si669_inclass_3#readme",
+  "homepage": "https://jessicadonoho.github.io/si669_inclass_3/",
   "peerDependencies": {
     "react": ">=18",
     "react-native": ">=0.70"
