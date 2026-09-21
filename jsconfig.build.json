@@ -1,0 +1,15 @@
+{
+  "extends": "./jsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/index.js",
+    "src/tokens.js",
+    "src/components/**/*.jsx"
+  ],
+  "exclude": ["src/**/*.stories.*", "src/__tests__/**"]
+}

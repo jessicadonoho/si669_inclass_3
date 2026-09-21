@@ -1,0 +1,58 @@
+{
+  "name": "si669_inclass_3",
+  "version": "1.0.0",
+  "description": "React Native component library",
+  "private": true,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "react-native": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build:code": "tsup src/index.js --format esm,cjs --sourcemap --clean --external react --external react-native",
+    "build:types": "tsc -p jsconfig.build.json",
+    "build": "npm run build:code && npm run build:types",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicadonoho/si669_inclass_3.git"
+  },
+  "keywords": [
+    "react-native",
+    "components",
+    "storybook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jessicadonoho/si669_inclass_3/issues"
+  },
+  "homepage": "https://github.com/jessicadonoho/si669_inclass_3#readme",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.70"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.6.0",
+    "@storybook/addon-docs": "^10.6.0",
+    "@storybook/react-vite": "^10.6.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-native": "^0.87.1",
+    "react-native-web": "^0.21.2",
+    "storybook": "^10.6.0",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}
