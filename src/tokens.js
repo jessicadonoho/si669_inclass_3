@@ -1,8 +1,8 @@
 export const tokens = {
   colors: {
     // Reference: the Uber Eats home screenshot uses a near-white canvas, black type, and green accents.
-    primary: '#06c167',
-    primaryPressed: '#059b53',
+    primary: '#051c79',
+    primaryPressed: '#030c34',
     background: '#ffffff',
     surface: '#ffffff',
     surfaceMuted: '#f5f4f6',
